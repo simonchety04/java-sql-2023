@@ -22,7 +22,7 @@ public class LoginServlet extends HttpServlet {
         writer.println("Succesfull login");
         } else {
 
-        writer.println("Succesfull failed");
+        writer.println("Login failed");
     }   
   }
 }
